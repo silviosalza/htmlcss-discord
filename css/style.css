@@ -1,0 +1,176 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* -------------------------------------------- */
+
+/* UTILITIES */
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    height: 400px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+/* ---------------------------------------- */
+
+/* NAV BAR */
+
+.logo,
+.header-nav,
+.login{
+    border: dashed black;
+    padding: 10px;
+}
+.logo,
+.login{
+    width: 10%;
+}
+.header-nav{
+    flex-grow: 1;
+}
+
+.nav-container{
+    background-color: brown;
+    height: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.nav-background{
+    width: 50%;
+    background-color: rgb(255, 237, 124); 
+    
+}
+
+.header-nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* ---------------------------------------- */
+
+/* HOMEPAGE */
+.homepage{
+    background-color:lightskyblue ;
+}
+.first-box{
+    background-color: lightpink;
+    width: 40%;
+    height: 300px;
+    border: dashed black;
+}
+/* ------------------------------------------- */
+
+/* 1° 2° and 3° section */
+.first-sec{
+    background-color: grey;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-sec{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-sec{
+    background-color: grey;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 20%;
+    height: 320px;
+    background-color: lightcoral;
+    border: dashed black;
+}
+.info{
+    width: 30%;
+    height: 320px;
+    background-color: lightgoldenrodyellow;
+    border: dashed black;
+}
+/* ---------------------------------------------- */
+
+/* 4° section */
+
+.fourth-sec{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 550px;
+    background-color: burlywood;
+}
+.second-box{
+    width: 50%;
+    background-color: lightgreen;
+    height: 480px;
+    border: dashed black;
+}
+/* ---------------------------------------------------------- */
+
+/* 5° section */
+.fifth-sec{
+    height: 450px ;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(33, 31, 49);
+}
+
+.col{
+    width: 8%;
+    height: 350px;
+    background-color: lavender;
+    border: dashed white;
+}
+.col2{
+    width: 18%;
+    height: 350px;
+    background-color: rgb(255, 181, 132);
+    border: dashed white;
+
+}
+/* ------------------------------------------------------------------ */
+/* footer */
+
+footer{
+    background-color: rgb(33, 31, 49);
+    height: 50px;
+}
+.footer{
+    width: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 10px 0;
+}
+.footer-logo{
+    background-color: lightsalmon;
+    border: dashed black;
+    padding: 3px;
+}
+.footer-button{
+    background-color: lightsalmon;
+    border: dashed black;
+    padding: 3px;
+
+}
