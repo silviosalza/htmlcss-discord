@@ -234,8 +234,9 @@ li a,
 
 .fifth-sec li:first-child{
     color: #7289DA;
-
-
+}
+.fifth-sec img{
+    max-height: 15px;
 }
 
 
