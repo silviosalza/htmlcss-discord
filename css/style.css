@@ -133,7 +133,7 @@ li a,
 
 /* 1° 2° and 3° section */
 .first-sec{
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     flex-direction: row-reverse;
     display: flex;
     justify-content: center;
@@ -146,23 +146,19 @@ li a,
     align-items: center;
 }
 .third-sec{
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     flex-direction: row-reverse;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .img{
-    width: 20%;
-    height: 320px;
-    background-color: lightcoral;
-    border: dashed black;
+    max-width: 1200px;
+    
 }
 .info{
-    width: 30%;
-    height: 320px;
-    background-color: lightgoldenrodyellow;
-    border: dashed black;
+    
+    width: 20%;
 }
 /* ---------------------------------------------- */
 
