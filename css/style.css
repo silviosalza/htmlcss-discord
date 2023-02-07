@@ -1,16 +1,27 @@
+/* variables */
+:root{
+    --blue: #255EE9;
+    --carbon: #23272A;
+}
+
+
 /* RESET */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 /* -------------------------------------------- */
 
 /* UTILITIES */
 .flex{
     display: flex;
-    justify-content: space-between;
-    align-items: center;  
+    align-items: center;
+ 
 }
 .flex2{
     display: flex;
@@ -19,7 +30,7 @@
 
 }
 .container{
-    height: 400px;
+
     max-width: 1200px;
     margin: 0 auto;
 
@@ -31,49 +42,93 @@
 .logo,
 .header-nav,
 .login{
-    border: dashed black;
-    padding: 10px;
+    margin: 0 5rem;
+    
 }
-.logo,
-.login{
-    width: 10%;
-}
+
 .header-nav{
     flex-grow: 1;
 }
 
 .nav-container{
-    background-color: brown;
+    background-color: var(--blue);
     height: 100px;
     max-width: 1200px;
     margin: 0 auto;
-    
+    color: white;    
 }
 
-.nav-background{
-    width: 50%;
-    background-color: rgb(255, 237, 124); 
-    
+.logo img{
+    width: 100%;
 }
 
 .header-nav ul{
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    text-align: center;
+}
+.header-nav li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+li a,
+.login a{
+    text-decoration: none;
+    color: inherit;   
+}
+
+.login{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 25px 25px 25px 25px;
 }
 /* ---------------------------------------- */
 
 /* HOMEPAGE */
 .homepage{
-    background-color:lightskyblue ;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    
 }
 .first-box{
-    background-color: lightpink;
     width: 40%;
-    height: 300px;
-    border: dashed black;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    gap: 20px; 
+    
 }
+.first-box p{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.mac-button a,
+.browser-button a{
+    text-decoration: none;
+    color: inherit;
+}
+.mac-button{
+    background-color: white;
+    color: black;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px;
+}
+.browser-button{
+    background-color: var(--carbon);
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px;
+}
+
+
 /* ------------------------------------------- */
 
 /* 1° 2° and 3° section */
