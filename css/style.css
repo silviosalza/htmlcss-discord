@@ -26,7 +26,6 @@ body{
 .flex2{
     display: flex;
     justify-content: center;
-    align-items: center;
 
 }
 .container{
@@ -209,25 +208,35 @@ li a,
 
 /* 5° section */
 .fifth-sec{
-    height: 450px ;
     max-width: 1200px;
     margin: 0 auto;
     background-color: rgb(33, 31, 49);
+    color: white;
+    padding: 3rem 0;
+}
+.fifth-sec>a{
+    color: inherit;
+}
+.fifth-sec ul{
+    list-style: none;
 }
 
-.col{
-    width: 8%;
-    height: 350px;
-    background-color: lavender;
-    border: dashed white;
-}
-.col2{
-    width: 18%;
-    height: 350px;
-    background-color: rgb(255, 181, 132);
-    border: dashed white;
 
+
+.col ul{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 20px;
+    padding: 0 20px;
+    
 }
+
+.fifth-sec li:first-child{
+    color: #7289DA;
+}
+
+
 /* ------------------------------------------------------------------ */
 /* footer */
 
