@@ -234,7 +234,10 @@ li a,
 
 .fifth-sec li:first-child{
     color: #7289DA;
+
+
 }
+
 
 
 /* ------------------------------------------------------------------ */
@@ -243,22 +246,28 @@ li a,
 footer{
     background-color: rgb(33, 31, 49);
     height: 50px;
+    padding-bottom: 5rem;
+    
 }
 .footer{
-    width: 50%;
+    
     max-width: 1200px;
     margin: 0 auto;
-    background-color: antiquewhite;
-    padding: 10px 0;
+    
+    display: flex;
+    justify-content: space-around;
 }
 .footer-logo{
-    background-color: lightsalmon;
-    border: dashed black;
     padding: 3px;
 }
 .footer-button{
-    background-color: lightsalmon;
-    border: dashed black;
-    padding: 3px;
-
+    background-color: #7289DA;
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+.footer-button a{
+    text-decoration: none;
+    color: inherit;
 }
